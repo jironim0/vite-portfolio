@@ -46,7 +46,7 @@ export function Slider() {
           />
           <div className={s.sliderTextArea}>
             <h1>{current.title}</h1>
-            <span className={s.sliderDescription}>{current.description}</span>
+            <span className={s.sliderDescription}>{window.screen.width > 768 ? current.description : ''}</span>
           </div>
           <div className={s.sliderIconLinks}>
             <div><a href={current.gitUrl} target='_blank' rel='noopener noreferrer' onClick={(e) => e.stopPropagation()}><FaGithub size={44} color="black"/></a></div>
