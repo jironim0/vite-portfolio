@@ -1,0 +1,34 @@
+.infoContainer {
+    padding: 0 16px 0 16px;
+    border-top: 1px solid var(--secondary);
+
+    @media (min-width: 1440px){
+        padding: 80px 108px 80px 108px;
+    }
+}
+
+.infoTitle {
+    font-size: 22px;
+    font-weight: 600;
+
+    @media (min-width: 1440px) {
+        font-size: 32px;
+    }
+}
+
+.infoDescription {
+    @media (min-width: 1440px) {
+        font-size: 20px;
+    }
+}
+
+.linkGroup {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+
+.copirait {
+    border-top: 1px solid var(--secondary);
+    padding: 64px 0 64px 0;
+}

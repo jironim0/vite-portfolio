@@ -1,0 +1,35 @@
+.aboutContainer {
+    padding: 64px 16px 0 16px;
+    border-top: 1px solid var(--secondary);
+
+    @media (min-width: 1440px) {
+        padding: 80px 108px 80px 108px;
+    }
+}
+
+.aboutMe {
+    font-size: 22px;
+}
+
+.aboutLink {
+    color: var(--primary);
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+
+    &:active {
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
+
+    &:hover {
+        text-underline-offset: 6px;
+    }
+
+    @media (min-width: 1440px) {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

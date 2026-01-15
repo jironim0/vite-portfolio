@@ -1,0 +1,29 @@
+.projectsContainer {
+    margin: 64px 16px 64px 16px;
+    border-top: 1px solid var(--secondary);
+
+    @media (min-width: 1440px) {
+        margin: 0;
+        padding: 80px 108px 80px 108px;
+
+    }
+
+
+}
+
+.projectsHeader {
+    padding-top: 64px;
+    @media (min-width: 1440px) {
+        padding: 0 0 80px 0;
+        font-size: 20px;
+    }
+}
+
+.headTitle {
+    font-size: 22px;
+    font-weight: 600;
+
+    @media (min-width: 1440px) {
+        font-size: 32px;
+    }
+}
