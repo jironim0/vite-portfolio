@@ -35,7 +35,7 @@ export function Home() {
             <div className={s.buttonMe}>
               <span>CONTACT ME</span>
               <div className={s.buttonMeCirkl}>
-                {window.screen.width > 1440 ? <GoDotFill /> : <RxExternalLink size={22} color="white" />}
+                {window.screen.width > 768 ? <GoDotFill /> : <RxExternalLink size={22} color="white" />}
               </div>
             </div>
           </button>
