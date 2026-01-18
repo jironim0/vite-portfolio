@@ -2,7 +2,7 @@ import type { ProjectData } from "./projects.type";
 import musicHub from '@/assets/music-hub.jpg';
 import alphaTest from '@/assets/alpha-test.jpg';
 import fullStackTest from '@/assets/full-stack-test.jpg';
-import todoListTest from '@/assets/todo-list-test.jpg';
+import portfolio from '@/assets/portfolio.jpg';
 
 export const projects: ProjectData[] = [
     {
@@ -31,7 +31,7 @@ export const projects: ProjectData[] = [
     },
     {
         id: 4,
-        image: todoListTest,
+        image: portfolio,
         title: 'Portfolio | Презентационная SPA',
         description: 'React  JavaScript  CSS\n\nЗадача: Создать современное, адаптивное портфолио для демонстрации проектов.\nРешение:\n Разработал SPA с кастомным слайдером, навигацией на якорях и поддержкой swipe-жестов.\n Реализовал pixel-perfect вёрстку под Desktop (1440px) и Mobile (375px).\n Продемонстрировал внимание к деталям и пользовательскому опыту.',
         gitUrl: 'https://github.com/jironim0/vite-portfolio',
