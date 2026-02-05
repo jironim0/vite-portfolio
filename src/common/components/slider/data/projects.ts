@@ -3,6 +3,7 @@ import musicHub from '@/assets/music-hub.jpg';
 import alphaTest from '@/assets/alpha-test.jpg';
 import fullStackTest from '@/assets/full-stack-test.jpg';
 import portfolio from '@/assets/portfolio.jpg';
+import wbTest from '@/assets/wb-test.jpg'
 
 export const projects: ProjectData[] = [
     {
@@ -37,4 +38,12 @@ export const projects: ProjectData[] = [
         gitUrl: 'https://github.com/jironim0/vite-portfolio',
         devUrl: 'https://jironim0.github.io/vite-portfolio'
     },
+    {
+        id: 5,
+        image: wbTest,
+        title: 'WB-Tech | Тестовое задание',
+        description: 'React  TypeScript  RTK Query  FSD\n\nЗадача: Создать SPA для управления пользователями по ТЗ от WB-Tech.\nРешение:\n Реализовал таблицу с пагинацией, детальные страницы и формы создания/редактирования.\n Интегрировал API (dummyjson.com) с кэшированием через RTK Query.\n Сохранил состояние пагинации в URL для навигации между страницами.',
+        gitUrl: 'https://github.com/jironim0/wb-test',
+        devUrl: 'https://jironim0.github.io/wb-test/'
+    }
 ]
